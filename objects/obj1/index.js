@@ -15,4 +15,6 @@ const users = [
         lastActivity: 104
     }
 ];
-const userOnline
+const onlineUsers = users.filter(item => item.status === 'online').map(item => item.username);
+const usersOnlineNames = onlineUsers.join(', ');
+alert(`Сейчас в онлайн следующие пользователи: ${usersOnlineNames}`);
