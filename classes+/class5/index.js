@@ -73,3 +73,6 @@ class JuniorDeveloper extends Developer {
       seniorDeveloper.position,
       seniorDeveloper.technologies
     );
+
+
+    
